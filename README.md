@@ -28,19 +28,12 @@
 
 
    1.[Админка заббикс](https://drive.google.com/file/d/14MayiSTu4IwfNhLYSxni1RRhnyv3AdIW/view?usp=drive_link)
-   2.wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb
-     dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb
-     apt update 
-     apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
-     sudo -u postgres createuser --pwprompt zabbix
-     sudo -u postgres createdb -O zabbix zabbix 
-     zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
-     sudo nano /etc/zabbix/zabbix_server.conf
-     sudo systemctl restart zabbix-server zabbix-agent apache2
-     sudo systemctl enable zabbix-server zabbix-agent apache2 
+   2.[коммит](https://drive.google.com/file/d/1e0nlhTHAvawElPPOCVULipZ2WOUySWJQ/view?usp=drive_link)
+ 
 
 ### Задание 2
-    1.[Хосты](https://drive.google.com/file/d/1I2OoF-DLuwXcUix-3vm2kzmmxFNXeEE3/view?usp=drive_link)
-    2.[Агенты](https://drive.google.com/file/d/1thkNRLy_Rp3vNBtusH202BdOHbmS0R7n/view?usp=drive_link)
-    3.[Latest data](https://drive.google.com/file/d/1I2OoF-DLuwXcUix-3vm2kzmmxFNXeEE3/view?usp=drive_link)
-    4.[коммит](https://drive.google.com/file/d/1e0nlhTHAvawElPPOCVULipZ2WOUySWJQ/view?usp=drive_link)
+
+   1.[Хосты](https://drive.google.com/file/d/1I2OoF-DLuwXcUix-3vm2kzmmxFNXeEE3/view?usp=drive_link)
+   2.[Агенты](https://drive.google.com/file/d/1thkNRLy_Rp3vNBtusH202BdOHbmS0R7n/view?usp=drive_link)
+   3.[Latest data](https://drive.google.com/file/d/1I2OoF-DLuwXcUix-3vm2kzmmxFNXeEE3/view?usp=drive_link)
+   4.[коммит](https://drive.google.com/file/d/1e0nlhTHAvawElPPOCVULipZ2WOUySWJQ/view?usp=drive_link)
