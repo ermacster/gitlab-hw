@@ -26,7 +26,7 @@
 
 
 
-`При необходимости прикрепитe сюда скриншоты
-![процессор нагрузка](https://drive.google.com/file/d/1smfqskjv9yZ70TMQTPbTT8CHnqmmYoXb/view?usp=drive_link)`
+
+[процессор нагрузка](https://drive.google.com/file/d/1smfqskjv9yZ70TMQTPbTT8CHnqmmYoXb/view?usp=drive_link)
 
 
