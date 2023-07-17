@@ -1,4 +1,4 @@
-﻿# Домашнее задание к занятию "`Заббикс 1"`" - `Корниенко Сергей`
+﻿# Домашнее задание к занятию "`GIT"`" - `Корниенко Сергей`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -27,13 +27,15 @@
 
 
 
-   1.[Админка заббикс](https://drive.google.com/file/d/14MayiSTu4IwfNhLYSxni1RRhnyv3AdIW/view?usp=drive_link)
-   2.[коммит](https://drive.google.com/file/d/1e0nlhTHAvawElPPOCVULipZ2WOUySWJQ/view?usp=drive_link)
+   1.[коммит](https://github.com/ermacster/netology/commit/9d97c80e0581c59f41e94453e9550343244c081c)
+   
  
 
 ### Задание 2
 
-   1.[Хосты](https://drive.google.com/file/d/1I2OoF-DLuwXcUix-3vm2kzmmxFNXeEE3/view?usp=drive_link)
-   2.[Агенты](https://drive.google.com/file/d/1thkNRLy_Rp3vNBtusH202BdOHbmS0R7n/view?usp=drive_link)
-   3.[Latest data](https://drive.google.com/file/d/1HS-H6VT5qw4jDl6gb8K0ktdoLne6WMws/view?usp=drive_link)
-   4.[коммит](https://drive.google.com/file/d/1e0nlhTHAvawElPPOCVULipZ2WOUySWJQ/view?usp=drive_link)
+   1.[коммит](https://github.com/ermacster/netology/commit/1816033c13fc4b6a4fe42464b26a2d960558a66f)
+
+
+### Задание 3
+
+   1.[коммит](https://github.com/ermacster/netology/network)
