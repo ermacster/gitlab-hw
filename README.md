@@ -1,4 +1,4 @@
-﻿# Домашнее задание к занятию "`GIT"`" - `Корниенко Сергей`
+﻿# Домашнее задание к занятию "`CI/CD"`" - `Корниенко Сергей`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -27,15 +27,8 @@
 
 
 
-   1.[коммит](https://github.com/ermacster/netology/commit/9d97c80e0581c59f41e94453e9550343244c081c)
+   1.[настройки+тест](https://drive.google.com/drive/folders/1eHHUL4lMvvhZmIfH95jwR6SV8z1ppOV1?usp=drive_link)
    
  
 
-### Задание 2
 
-   1.[коммит](https://github.com/ermacster/netology/commit/1816033c13fc4b6a4fe42464b26a2d960558a66f)
-
-
-### Задание 3
-
-   1.[коммит](https://github.com/ermacster/netology/network)
