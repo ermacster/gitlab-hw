@@ -37,9 +37,9 @@
 
 
 
-   1.![настройки](https://drive.google.com/file/d/1JNo-trhjOn8pJh6w1p1ReVRWI0B5omkF/view?usp=drive_link)
-     ![настройки](https://drive.google.com/file/d/1r7p9M7xmKcBE3J3PKv7acyalzEBqbojq/view?usp=drive_link)
-     ![результат](https://drive.google.com/file/d/1egLkYWeXoKE2t98dBZtd0vxWvuk_iAiK/view?usp=drive_link)
+   1.![alt настройки](https://drive.google.com/file/d/1JNo-trhjOn8pJh6w1p1ReVRWI0B5omkF/view?usp=drive_link)
+     ![alt настройки](https://drive.google.com/file/d/1r7p9M7xmKcBE3J3PKv7acyalzEBqbojq/view?usp=drive_link)
+     ![alt результат](https://drive.google.com/file/d/1egLkYWeXoKE2t98dBZtd0vxWvuk_iAiK/view?usp=drive_link)
  
 ### Задание 2
 
@@ -52,8 +52,8 @@
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
-  1.![настройки](https://drive.google.com/file/d/1OZk4NQllhbrpiSsnlvjtqqpq3Pjj5MVj/view?usp=drive_link)
-    ![результат](https://drive.google.com/file/d/1o3BTDR89NEx47dC9aQLutM30TNC6MyrT/view?usp=drive_link) 
+  1.![alt настройки](https://drive.google.com/file/d/1OZk4NQllhbrpiSsnlvjtqqpq3Pjj5MVj/view?usp=drive_link)
+    ![alt результат](https://drive.google.com/file/d/1o3BTDR89NEx47dC9aQLutM30TNC6MyrT/view?usp=drive_link) 
  
 
 
