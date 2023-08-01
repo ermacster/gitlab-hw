@@ -27,8 +27,33 @@
 
 
 
-   1.[настройки+тест](https://drive.google.com/drive/folders/1eHHUL4lMvvhZmIfH95jwR6SV8z1ppOV1?usp=drive_link)
-   
+Что нужно сделать:
+
+    Установите себе jenkins по инструкции из лекции или любым другим способом из официальной документации. Использовать Docker в этом задании нежелательно.
+    Установите на машину с jenkins golang.
+    Используя свой аккаунт на GitHub, сделайте себе форк репозитория. В этом же репозитории находится дополнительный материал для выполнения ДЗ.
+    Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта go test . и docker build ..
+
+
+
+
+   1.![настройки](https://drive.google.com/file/d/1JNo-trhjOn8pJh6w1p1ReVRWI0B5omkF/view?usp=drive_link)
+     ![настройки](https://drive.google.com/file/d/1r7p9M7xmKcBE3J3PKv7acyalzEBqbojq/view?usp=drive_link)
+     ![результат](https://drive.google.com/file/d/1egLkYWeXoKE2t98dBZtd0vxWvuk_iAiK/view?usp=drive_link)
+ 
+### Задание 2
+
+Задание 2
+
+Что нужно сделать:
+
+    Создайте новый проект pipeline.
+    Перепишите сборку из задания 1 на declarative в виде кода.
+
+В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
+
+  1.![настройки](https://drive.google.com/file/d/1OZk4NQllhbrpiSsnlvjtqqpq3Pjj5MVj/view?usp=drive_link)
+    ![результат](https://drive.google.com/file/d/1o3BTDR89NEx47dC9aQLutM30TNC6MyrT/view?usp=drive_link) 
  
 
 
