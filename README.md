@@ -38,9 +38,7 @@
 
 
      ![настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/settings.png)
-
      ![настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/s1.JPG)
-
      ![результат](https://github.com/ermacster/gitlab-hw/blob/main/img/resault.png)
  
 ### Задание 2
@@ -54,7 +52,6 @@
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
     ![настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/S%202.JPG)
-
     ![результат](https://github.com/ermacster/gitlab-hw/blob/main/img/R2.JPG) 
  
 
@@ -70,7 +67,5 @@
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
    ![настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/Pipe3.JPG)
-
-   ![результат](https://github.com/ermacster/gitlab-hw/blob/main/img/Collect3.JPG)
- 
+   ![результат](https://github.com/ermacster/gitlab-hw/blob/main/img/Collect3.JPG) 
    ![репозиторий](https://github.com/ermacster/gitlab-hw/blob/main/img/Repo3.JPG) 
