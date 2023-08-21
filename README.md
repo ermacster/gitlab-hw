@@ -26,7 +26,6 @@
 
 
 
-
 Что нужно сделать:
 
     Установите себе jenkins по инструкции из лекции или любым другим способом из официальной документации. Использовать Docker в этом задании нежелательно.
@@ -34,9 +33,7 @@
     Используя свой аккаунт на GitHub, сделайте себе форк репозитория. В этом же репозитории находится дополнительный материал для выполнения ДЗ.
     Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта go test . и docker build ..
 
-    
-
-    1.[настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/settings.png)
+      [настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/settings.png)
       [настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/s1.JPG)
       [результат](https://github.com/ermacster/gitlab-hw/blob/main/img/resault.png)
 
