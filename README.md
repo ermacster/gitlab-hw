@@ -36,9 +36,9 @@
 
     
 
-    ![настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/settings.png)
-    ![настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/s1.JPG)
-    ![результат](https://github.com/ermacster/gitlab-hw/blob/main/img/resault.png)
+    1.![настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/settings.png)
+      ![настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/s1.JPG)
+      ![результат](https://github.com/ermacster/gitlab-hw/blob/main/img/resault.png)
 
  
 ### Задание 2
