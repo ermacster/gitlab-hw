@@ -1,4 +1,4 @@
-﻿# Домашнее задание к занятию "`CI/CD"`" - `Корниенко Сергей`
+﻿# Домашнее задание к занятию 1 «Disaster recovery и Keepalived» - `Корниенко Сергей`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -26,42 +26,37 @@
 
 
 
-Что нужно сделать:
 
-    Установите себе jenkins по инструкции из лекции или любым другим способом из официальной документации. Использовать Docker в этом задании нежелательно.
-    Установите на машину с jenkins golang.
-    Используя свой аккаунт на GitHub, сделайте себе форк репозитория. В этом же репозитории находится дополнительный материал для выполнения ДЗ.
-    Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта go test . и docker build ..
+    Дана схема для Cisco Packet Tracer, рассматриваемая в лекции.
+    На данной схеме уже настроено отслеживание интерфейсов маршрутизаторов Gi0/1 (для нулевой группы)
+    Необходимо аналогично настроить отслеживание состояния интерфейсов Gi0/0 (для первой группы).
+    Для проверки корректности настройки, разорвите один из кабелей между одним из маршрутизаторов и Switch0 и запустите ping между PC0 и Server0.
+    На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
+    
+  Команды, которыми пользовался conf t, int, и далее уже те, что в примере
+ standby version 2
+ standby 0 ip 192.168.0.1
+ standby priority 105
+ standby preempt
+ standby 0 track GigabitEthernet0/1
+                                     
 
-      [настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/settings.png)
-      [настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/s1.JPG)
-      [результат](https://github.com/ermacster/gitlab-hw/blob/main/img/resault.png)
-
+      [схема](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/home.pkt)
+      
  
 ### Задание 2
 
 
-Что нужно сделать:
 
-    Создайте новый проект pipeline.
-    Перепишите сборку из задания 1 на declarative в виде кода.
+    Запустите две виртуальные машины Linux, установите и настройте сервис Keepalived как в лекции, используя пример конфигурационного файла.
+    Настройте любой веб-сервер (например, nginx или simple python server) на двух виртуальных машинах
+    Напишите Bash-скрипт, который будет проверять доступность порта данного веб-сервера и существование файла index.html в root-директории данного веб-сервера.
+    Настройте Keepalived так, чтобы он запускал данный скрипт каждые 3 секунды и переносил виртуальный IP на другой сервер, если bash-скрипт завершался с кодом, отличным от нуля (то есть порт веб-сервера был недоступен или отсутствовал index.html). Используйте для этого секцию vrrp_script
+    На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
 
-В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
-    ![настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/S%202.JPG)
-    ![результат](https://github.com/ermacster/gitlab-hw/blob/main/img/R2.JPG) 
- 
+    ![скрипт](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/keepalived.txt)
+    ![результат до команды mv ](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/ubuntu.JPG)
+    ![команда mv ](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/MV.JPG)    
+    ![после mv ](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/debian.JPG)
 
 
-### Задание 3
-
-Что нужно сделать:
-
-    Установите на машину Nexus.
-    Создайте raw-hosted репозиторий.
-    Измените pipeline так, чтобы вместо Docker-образа собирался бинарный go-файл. Команду можно скопировать из Dockerfile.
-    Загрузите файл в репозиторий с помощью jenkins.
-
-В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
-   ![настройки](https://github.com/ermacster/gitlab-hw/blob/main/img/Pipe3.JPG)
-   ![результат](https://github.com/ermacster/gitlab-hw/blob/main/img/Collect3.JPG) 
-   ![репозиторий](https://github.com/ermacster/gitlab-hw/blob/main/img/Repo3.JPG) 
