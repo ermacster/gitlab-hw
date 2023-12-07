@@ -38,10 +38,10 @@
  standby 0 ip 192.168.0.1
  standby priority 105
  standby preempt
- standby 0 track GigabitEthernet0/1
-                                     
-
-      [схема](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/home.pkt)
+ standby 0 track GigabitEthernet0/1  
+                                   
+[схема](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/home.pkt)
+[Текст ссылки](https://www.example.com)
       
  
 ### Задание 2
