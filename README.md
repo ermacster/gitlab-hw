@@ -53,7 +53,7 @@
 
 [команда c именем](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/2nd%20work.JPG)
 
-[команда c именем](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/without%20name.JPG)
+[команда без имени](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/without%20name.JPG)
 
 [конфиг happroxy](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/haproxy2.cfg)
 
