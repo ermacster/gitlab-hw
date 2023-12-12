@@ -27,20 +27,16 @@
 
 
 
-    Дана схема для Cisco Packet Tracer, рассматриваемая в лекции.
-    На данной схеме уже настроено отслеживание интерфейсов маршрутизаторов Gi0/1 (для нулевой группы)
-    Необходимо аналогично настроить отслеживание состояния интерфейсов Gi0/0 (для первой группы).
-    Для проверки корректности настройки, разорвите один из кабелей между одним из маршрутизаторов и Switch0 и запустите ping между PC0 и Server0.
-    На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
     
-  Команды, которыми пользовался conf t, int, и далее уже те, что в примере
- standby version 2
- standby 0 ip 192.168.0.1
- standby priority 105
- standby preempt
- standby 0 track GigabitEthernet0/1  
+    Запустите два simple python сервера на своей виртуальной машине на разных портах
+    Установите и настройте HAProxy, воспользуйтесь материалами к лекции по ссылке
+    Настройте балансировку Round-robin на 4 уровне.
+    На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
+
                                    
-[схема](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/home.pkt)
+[команда](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/4lvl.JPG)
+[конфиг happroxy](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/haproxy.cfg)
+
 
       
  
@@ -48,18 +44,14 @@
 
 
 
-    Запустите две виртуальные машины Linux, установите и настройте сервис Keepalived как в лекции, используя пример конфигурационного файла.
-    Настройте любой веб-сервер (например, nginx или simple python server) на двух виртуальных машинах
-    Напишите Bash-скрипт, который будет проверять доступность порта данного веб-сервера и существование файла index.html в root-директории данного веб-сервера.
-    Настройте Keepalived так, чтобы он запускал данный скрипт каждые 3 секунды и переносил виртуальный IP на другой сервер, если bash-скрипт завершался с кодом, отличным от нуля (то есть порт веб-сервера был недоступен или отсутствовал index.html). Используйте для этого секцию vrrp_script
-    На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
+    
+    Запустите три simple python сервера на своей виртуальной машине на разных портах
+    Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
+    HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
+    На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
 
-[скрипт+конфиг](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/keepalived.txt)
-
-[результат до команды mv ](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/ubuntu.JPG)
-
-[команда mv ](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/MV.JPG)   
- 
-[после mv ](https://github.com/ermacster/gitlab-hw/blob/main/img/keep/debian.JPG)
+[команда c именем](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/2nd%20work.JPG)
+[команда c именем](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/without%20name.JPG)
+[конфиг happroxy](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/haproxy2.cfg)
 
 
