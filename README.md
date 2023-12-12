@@ -1,4 +1,4 @@
-﻿# Домашнее задание к занятию 1 «Disaster recovery и Keepalived» - `Корниенко Сергей`
+﻿# Домашнее задание к занятию 2 «Кластеризация и балансировка нагрузки» - `Корниенко Сергей`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -35,6 +35,7 @@
 
                                    
 [команда](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/4lvl.JPG)
+
 [конфиг happroxy](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/haproxy.cfg)
 
 
@@ -51,7 +52,9 @@
     На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
 
 [команда c именем](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/2nd%20work.JPG)
+
 [команда c именем](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/without%20name.JPG)
+
 [конфиг happroxy](https://github.com/ermacster/gitlab-hw/blob/main/img/nginx/haproxy2.cfg)
 
 
