@@ -1,4 +1,4 @@
-﻿# Домашнее задание к занятию «ELK»
+﻿# Домашнее задание к занятию «Кеширование Redis/memcached»
 
 ### Инструкция по выполнению домашнего задания
 
@@ -21,13 +21,14 @@
 
 ---
 
-### Задание 1. Elasticsearch
+### Задание 1. Кеширование
 
-Установите и запустите Elasticsearch, после чего поменяйте параметр cluster_name на случайный.
+Приведите примеры проблем, которые может решить кеширование.
 
-Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с установленным Elasticsearch. Где будет виден нестандартный cluster_name.
+Приведите ответ в свободной форме.
 
-![elsticswork](https://github.com/ermacster/gitlab-hw/blob/main/img/ELK/Elesticsearch.JPG)    
+
+Кеширование с помощью Redis или Memcached может решить проблемы производительности приложения, ускоряя доступ к часто используемым данным и уменьшая нагрузку на базу данных. Оно также может улучшить масштабируемость приложения, уменьшая время отклика и обеспечивая более быстрый доступ к информации для пользователей. Кроме того, кеширование может помочь снизить нагрузку на сервер, улучшая общую производительность приложения и снижая задержки.  
     
     
 
@@ -35,30 +36,32 @@
 
       
  
-### Задание 2. Kibana
+### Задание 2. Memcached
 
-Установите и запустите Kibana.
+Установите и запустите memcached.
 
-Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.
+Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.
 
-![kibana](https://github.com/ermacster/gitlab-hw/blob/main/img/ELK/Kibana.JPG)
-
-
-
-### Задание 3. Logstash
-
-Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.
-
-Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.
-
-![nginx log](https://github.com/ermacster/gitlab-hw/blob/main/img/ELK/ELK%2BNG.JPG)
+![memcached](https://github.com/ermacster/gitlab-hw/blob/main/img/REDIS/MEM.JPG)
 
 
-### Задание 4. Filebeat.
 
-Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.
+### Задание 3. Удаление по TTL в Memcached
 
-Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
+Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.
+
+Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы.
 
 
-![filebeat](https://github.com/ermacster/gitlab-hw/blob/main/img/ELK/Filebeat.JPG)
+![memcached](https://github.com/ermacster/gitlab-hw/blob/main/img/REDIS/MEM2.JPG)
+
+
+### Задание 4. Запись данных в Redis
+
+Запишите в Redis несколько ключей с любыми именами и значениями.
+
+Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.
+
+
+![redis1](https://github.com/ermacster/gitlab-hw/blob/main/img/REDIS/REDIS1.JPG)
+![redis2](https://github.com/ermacster/gitlab-hw/blob/main/img/REDIS/REDIS2.JPG)
