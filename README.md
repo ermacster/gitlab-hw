@@ -42,13 +42,20 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.
 
 ![пользователи](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20SQL%201/users.JPG)
+
 ![права](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20SQL%201/Priveleges.JPG)
+
 ![вход под sys_temp](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20SQL%201/SYS_enter.JPG)
+
 ![восстановление схемы](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20SQL%201/RecoverS.JPG)
+
 ![восстановление базы](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20SQL%201/RecoverD.JPG)
+
 ![просмотр прав](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20SQL%201/sys_priv.JPG)
+
 ![таблица команда](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20SQL%201/table1.JPG)
-![таблица DBV](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20SQL%201/table2.JPG)
+
+![таблица DBV](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20SQL%201/table%202.JPG)
 
 
 
@@ -64,7 +71,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 Название таблицы | Название первичного ключа
 customer         | customer_id
 
-[таблица таблиц)](https://docs.google.com/spreadsheets/d/1mgPtl_DiU_ZYssr7Qfyvt82_j-0t91aPQYXFiZev-_Q/edit?usp=sharing)
+## [таблица таблиц)](https://docs.google.com/spreadsheets/d/1mgPtl_DiU_ZYssr7Qfyvt82_j-0t91aPQYXFiZev-_Q/edit?usp=sharing)
 
 
 
