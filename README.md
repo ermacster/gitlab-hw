@@ -28,7 +28,7 @@
 
 Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года включительно и стоимость которых превышает 10.00.
 
-![alt text](https://github.com/ermacster/gitlab-hw/blob/main/img/SQl1/2.JPG)
+![alt text](https://github.com/ermacster/gitlab-hw/blob/main/img/SQl1/2.1.JPG)
 
 ### Задание 3
 
