@@ -68,9 +68,11 @@ MySQL 5.0.51a-3ubuntu5
 Запишите сеансы сканирования в Wireshark.
 
 SYN
+
 ![alt](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/SYN.JPG)
 
 FIN
+
 ![alt](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/FN.JPG)
 
 
