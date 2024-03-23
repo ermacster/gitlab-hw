@@ -1,0 +1,9 @@
+UnrealIRCd на порту 6667/tcp. UnrealIRCd был обнаружен неоднократно имеющим уязвимости, которые позволили злоумышленникам запустить удаленный код на сервере.
+https://www.exploit-db.com/exploits/16922
+
+
+https://www.exploit-db.com/exploits/17491
+FTP vsftpd 2.3.4 - Существует уязвимость CVE-2011-2523 для данной версии, позволяющая атакующему получить доступ к файлам на FTP-сервере.
+
+https://www.exploit-db.com/exploits/27326
+MySQL 5.0.51a-3ubuntu5
