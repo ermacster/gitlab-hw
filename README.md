@@ -48,7 +48,7 @@
 
 Добавление контейнера LUKS на раздел
 
-![alt]https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%85%D0%BE%D1%81%D1%82%D0%B0/luks.JPG
+![alt](https://github.com/ermacster/gitlab-hw/blob/main/img/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%85%D0%BE%D1%81%D1%82%D0%B0/luks.JPG)
 
 Открываем контейнер sda4_crypt и размечаем как ext4
 
